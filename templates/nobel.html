@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flask Templates</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <!-- Render our data -->
+      <h1>{{ text }}</h1>
+      {{ data }}
+    </div>
+
+  <form action="#" method="post" >
+    <p>Nobel Prize:</p>
+    <table>
+       <tbody>
+      <tr>
+          <td>Category:</td>
+          <td><input type="text" name="category" /></td> 
+      </tr>
+      <tr>
+          <td>Chemistry:</td>
+          <td><input type="text" name="chemistry" /></td> 
+      </tr>
+      <tr>
+          <td>Id:</td>
+          <td><input type="text" name="id" /></td>
+      </tr>
+      <tr>
+          <td>Firstname:</td>
+          <td><input type="text" name="firstname" /></td>
+      </tr>
+      <tr>
+          <td>Surname:</td>
+          <td><input type="text" name="surname" /></td>
+         </tr>
+      <tr>
+          <td>Motivation:</td>
+          <td><input type="text" name="motivation" /></td>
+         </tr>
+      <tr>
+          <td>Share:</td>
+          <td><input type="text" name="share" /></td>
+         </tr>
+    </tbody>
+    </table>
+      <p><input type="submit" value="submit"/></p>
+     
+  </form>
+</body>
+
+</html>
